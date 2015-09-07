@@ -1,0 +1,312 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2015, 7:39:05 PM
+    Author     : Reniel
+*/
+
+body {
+    font-family: klavika-light;
+    background-color: #191919;
+    font-size: 15px;
+    color: #707070;
+}
+
+#header {
+    margin-bottom: 60px;
+}
+
+#header .top-nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#header .logo {
+    position:absolute;
+}
+
+#header .top-nav ul li a,
+#my_nav li a {
+    color: WHITE;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+#my_nav li a {
+    font-size: 16px;
+}
+
+#my_nav li a:hover {
+    background: none;
+    color: #0ff1f9;
+}
+
+#my_nav li a {
+    padding: 0 15px;
+}
+
+#my_nav ul {
+    margin-top: 15px;
+}
+
+#nav_main .navbar-header button, 
+#nav_main .navbar-header span {
+    border-color: white;
+    border-radius: 0;
+}
+#nav_main .navbar-header span {
+    background-color: white;
+}
+
+#header .top-nav ul li a .number {
+    color: #0ff1f9;
+}
+
+#header .top-nav ul li:last-child, 
+#my_nav li:last-child a {
+    padding-right: 0;
+}
+
+#header .top-nav ul li:nth-child(n+2), 
+#my_nav li:nth-child(n+2) {
+    border-left: 1px solid #383838;
+}
+
+#header .top-nav ul {
+    margin: 13px 0;
+}
+
+#top-banner {
+    background: url("../image/top_bg.png") no-repeat center center/cover;
+    height: 258px;
+    width: 100%;
+}
+
+nav.navbar {
+    margin-bottom: 0;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+#info .mov-back {
+    color: #0ff1f9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    display: block;
+}
+
+#info .back-link {
+    margin: 15px 0;
+}
+
+#info .mov-back:before {
+    content: '< ';
+}
+
+#info .mov-back:hover {
+    text-decoration: none;
+}
+
+#info .details .title {
+    margin-top: 0;
+}
+
+#info .share ul li,
+#info .share ul li a, 
+#footer .footer-links li {
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 7px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#footer .footer-links li,
+#info .share ul li a {
+    font-size: 19px;
+}
+
+#info .share ul {
+    padding-left: 0;
+}
+
+#info p.content {
+    line-height: 27px;
+    font-size: 14px;
+}
+
+#info .video video {
+    width: 100%;
+    height: 100%;
+}
+
+
+#related-items .carousel-inner li {
+    display: inline-block;
+    margin: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+#related-items .carousel-inner li > div {
+    position: relative;
+    height: 310px;
+    width: 220px;
+}
+
+#related-items .carousel-inner li a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+}
+
+
+#related-items .carousel-inner li .mask {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(15, 241, 249, 0.65);
+}
+
+#related-items .carousel-inner li .mask i {
+    font-size: 60px;
+    color: white;
+    margin-top: 55%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#footer .footer-links,
+#related-items ul {
+    padding-left: 0;
+}
+
+#related-items .carousel-control {
+    background: none;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+    top: 0;
+    margin: auto 0;
+    font-size: 25px;
+}
+
+.carousel-control.left {
+    left: -80px;
+}
+.carousel-control.right {
+    right: -80px;
+}
+
+
+#footer {
+    background-color: white;
+    padding-top: 85px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+#footer .title {
+    color: black;
+}
+
+#footer .footer-links li a {
+    color: gray;
+    padding-right: 15px;
+}
+
+#footer .footer-links {
+    text-align: center;
+    margin-top: 160px;
+}
+
+#footer .subscribe form {
+    margin-top: 30px;
+}
+
+#footer .subscribe form input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#footer .subscribe form input.submit {
+    border-radius: 0;
+    color: white;
+    background-color: #13D6E4;
+    border: 1px solid #13D6E4;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#footer .subscribe form input.submit:hover {
+    color: #13D6E4;
+    background-color: transparent;
+    border: 1px solid #13D6E4;
+}
+
+#footer .footer-info div {
+    margin-top: 25px;
+}
+
+#footer .footer-info .address-details {
+    margin-bottom: 5px;
+}
+
+#footer .footer-info {
+    font-size: 14px;
+}
+
+#footer .footer-links li a:hover {
+    color: #0ff1f9;
+}
+
+
+/*COMMON*/
+a.btn.btn-default {
+    border-radius: 0;
+    color: white;
+    background: none;
+    border-color: #13D6E4;
+    padding: 10px 25px;
+}
+
+.title {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.sub-title {
+    font-size: 18px;
+}
+
+.block {
+    display: block;
+}
+
+.divider {
+    border-bottom: 1px solid #0ff1f9;
+    height: 1px;
+    display: block;
+    width: 40px;
+    margin: 13px 0;
+}

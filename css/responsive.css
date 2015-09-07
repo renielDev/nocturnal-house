@@ -1,0 +1,96 @@
+
+
+/*wide*/
+@media screen and (max-width: 992px) {
+    #my_nav li a {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 0px 10px;
+    }
+    
+    #info .mov-back {
+        font-size: 12px;
+    }
+    
+    #info a.btn {
+        margin-bottom:15px;
+    }
+    
+    #related-items .carousel-inner li > div {
+        height: 225px;
+        width: 160px;
+    }
+    
+    #related-items .carousel-indicators {
+        bottom: -60px;
+    }
+    
+    #related-items .carousel-indicators li {
+        width: 30px;
+        height: 30px;   
+        border-radius: 100%;
+        margin: 0 5px;
+    }
+} 
+
+/*tablet*/
+@media screen and (max-width: 767px) {
+    
+    body {
+        font-size: 14px;
+    }
+    
+    #my_nav li {
+        border-left: 0 !important;
+    }
+    
+    #my_nav ul {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #header .top-nav ul { height: 30px;}
+    #header .top-nav ul li {
+        display:none;
+    }
+    
+    #header {
+        margin-bottom: 0;
+    }
+    
+    #header .logo {
+        height: 100px;
+        left: 10px;
+    }
+    
+    
+    
+    #related-items .carousel-inner li .mask {
+        left: 0;
+    }
+    
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    #footer .footer-links {
+        margin-top: 30px;
+    }
+    
+/*    #related-items .carousel-inner li > div {
+        height: 225px;
+        width: 160px;
+    }*/
+}
+
+/*small*/
+@media screen and (max-width: 480px) {
+    #related-items .carousel-inner li > div {
+        height: 180px;
+        width: 120px;
+    }
+}
+    
+    
