@@ -139,7 +139,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item1.jpg" class="img-responsive" alt="Item1"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item1.jpg" class="img-responsive" alt="Item1"></a>
                                             </div>
                                         </li>
                                         <li data-target="#slider" class="span3" align="center">
@@ -147,7 +147,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item2.jpg" class="img-responsive" alt="Item2"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item2.jpg" class="img-responsive" alt="Item2"></a>
                                             </div>
                                         </li>
                                         <li data-target="#slider" class="span3" align="center">
@@ -155,7 +155,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item3.jpg" class="img-responsive" alt="Item3"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item3.jpg" class="img-responsive" alt="Item3"></a>
                                             </div>
                                         </li>
                                         <li data-target="#slider" class="span3" align="center">
@@ -163,7 +163,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item4.jpg" class="img-responsive" alt="Item4"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item4.jpg" class="img-responsive" alt="Item4"></a>
                                             </div>
                                         </li>							
                                         <li data-target="#slider" class="span3" align="center">
@@ -171,7 +171,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item3.jpg" class="img-responsive" alt="Item3"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item3.jpg" class="img-responsive" alt="Item3"></a>
                                             </div>
                                         </li>
                                     </div>
@@ -180,14 +180,8 @@
                                             <span class="mask hide">
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
-                                            <a href="#" class="sliderImage"><img src="image/item1.jpg" class="img-responsive" alt="Item5"></a></a>
-                                        </li>
-                                        <li data-target="#slider" class="span3" align="center">
-                                            <span class="mask hide">
-                                                <i class="glyphicon glyphicon-play-circle"></i>
-                                            </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item2.jpg" class="img-responsive" alt="Item6"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item1.jpg" class="img-responsive" alt="Item5"></a>
                                             </div>
                                         </li>
                                         <li data-target="#slider" class="span3" align="center">
@@ -195,7 +189,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item3.jpg" class="img-responsive" alt="Item6"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item2.jpg" class="img-responsive" alt="Item6"></a>
                                             </div>
                                         </li>
                                         <li data-target="#slider" class="span3" align="center">
@@ -203,7 +197,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item4.jpg" class="img-responsive" alt="Item6"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item3.jpg" class="img-responsive" alt="Item6"></a>
                                             </div>
                                         </li>
                                         <li data-target="#slider" class="span3" align="center">
@@ -211,15 +205,7 @@
                                                 <i class="glyphicon glyphicon-play-circle"></i>
                                             </span>
                                             <div>
-                                                <a href="#" class="sliderImage"><img src="image/item1.jpg" class="img-responsive" alt="Item5"></a></a>
-                                            </div>
-                                        </li>
-                                        <li data-target="#slider" class="span3" align="center">
-                                            <span class="mask hide">
-                                                <i class="glyphicon glyphicon-play-circle"></i>
-                                            </span>
-                                            <div>
-                                                <a href="#" class="sliderImage"><img src="image/item2.jpg" class="img-responsive" alt="Item6"></a></a>
+                                                <a href="#" class="sliderImage"><img src="image/item4.jpg" class="img-responsive" alt="Item6"></a>
                                             </div>
                                         </li>
                                     </div>
@@ -284,20 +270,23 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/supplyItemsSlider.js" ></script>
     <script>
-            $(function(){
-                    $("#related-items #slider .carousel-inner li").on('mouseover',function(){
-                        var $this = $(this),
-                            mask = $this.find('.mask');
-                            mask.toggleClass("hide");
-                    }).on('mouseout',function(){
-                        var $this = $(this),
-                            mask = $this.find('.mask');
-                            mask.toggleClass("hide");
-                    });
-                    
-                    $('#slider').carousel();
-            });
+    $(function() {
+        $("#related-items #slider .carousel-inner li").on('mouseover', function() {
+            var $this = $(this),
+                mask = $this.find('.mask');
+            mask.toggleClass("hide");
+        }).on('mouseout', function() {
+            var $this = $(this),
+                mask = $this.find('.mask');
+            mask.toggleClass("hide");
+        });
+
+        $('#slider').carousel();
+        
+        SliderCarousel.apply('#related-items');
+    });
     </script>
 </body>
 </html>
